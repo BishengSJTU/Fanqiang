@@ -1,0 +1,1676 @@
+[2017-07-05 19:02:20] Shadowsocks started
+[2017-07-05 19:03:04] Shadowsocks started
+[2017-07-05 19:03:06] Shadowsocks started
+[2017-07-05 19:03:13] Shadowsocks started
+[2018-01-19 15:41:27] System.Exception: 端口已被占用
+   在 Shadowsocks.Controller.Listener.Start(Configuration config)
+   在 Shadowsocks.Controller.ShadowsocksController.Reload()
+[2018-01-19 15:42:10] Shadowsocks started
+[2018-01-19 15:42:14] Shadowsocks started
+[2018-01-19 15:42:38] Shadowsocks started
+[2018-01-19 15:42:43] Shadowsocks started
+[2018-01-19 15:42:54] Detected: PAC file 'pac.txt' was created.
+[2018-01-19 17:52:40] controller stopped
+[2018-01-19 17:52:40] os suspend
+[2018-01-19 18:09:45] os wake up
+[2018-01-19 18:09:55] Shadowsocks started
+[2018-01-19 18:09:55] controller started
+[2018-01-19 20:49:45] Shadowsocks started
+[2018-01-19 20:49:52] Shadowsocks started
+[2018-01-19 20:49:57] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:49:57] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-01-19 20:50:03] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:50:03] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:50:03] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:50:03] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:50:11] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:50:11] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:50:59] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:51:16] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:51:24] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:51:24] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:51:25] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:51:30] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:51:40] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:51:40] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:52:02] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:52:02] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:52:03] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:52:06] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:52:14] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:52:15] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:52:17] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:52:17] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:52:18] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:52:49] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:54:17] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:54:34] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:54:36] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:54:37] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:54:37] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:54:44] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:55:38] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:55:39] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:56:21] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:56:22] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:56:24] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:56:26] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:56:28] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:56:30] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:56:35] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:57:05] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:59:37] trus.y23fdl.com:9064 timed out
+[2018-01-19 20:59:39] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:02:52] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:02:52] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:02:52] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:02:52] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:08:50] Shadowsocks started
+[2018-01-19 21:09:00] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:09:05] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:09:05] System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+[2018-01-19 21:09:08] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:09:08] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:09:08] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:09:08] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:09:14] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:09:45] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:09:52] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:09:55] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:12:04] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:20:28] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:21:25] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:22:26] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:23:48] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:23:48] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:23:48] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:39:02] Shadowsocks started
+[2018-01-19 21:39:10] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:39:15] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:39:15] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-01-19 21:39:44] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:40:20] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:40:27] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:40:37] trus.y23fdl.com:9064 timed out
+[2018-01-19 21:41:05] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:09:20] Shadowsocks started
+[2018-01-19 22:09:28] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:09:33] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:09:33] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-01-19 22:09:37] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:09:40] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:10:00] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:12:50] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:24:27] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:24:35] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:24:36] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:28:30] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:28:31] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:30:10] trus.y23fdl.com:9064 timed out
+[2018-01-19 22:33:33] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:17:31] Shadowsocks started
+[2018-01-20 11:17:39] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:17:58] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:18:15] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:18:21] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:18:22] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:18:22] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:18:25] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:18:48] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:18:49] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:19:50] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:19:51] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:20:37] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:20:53] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:21:24] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:22:55] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:23:24] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:23:30] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:24:20] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:28:54] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:37:16] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:47:58] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:48:07] trus.y23fdl.com:9064 timed out
+[2018-01-20 11:57:07] controller stopped
+[2018-01-20 11:57:07] os suspend
+[2018-01-20 12:09:35] os wake up
+[2018-01-20 12:09:45] Shadowsocks started
+[2018-01-20 12:09:45] controller started
+[2018-01-20 14:51:46] Shadowsocks started
+[2018-01-20 15:54:38] Shadowsocks started
+[2018-01-20 15:55:34] Shadowsocks started
+[2018-01-20 19:43:42] Shadowsocks started
+[2018-01-20 20:56:54] controller stopped
+[2018-01-20 20:56:54] os suspend
+[2018-01-20 21:00:17] controller stopped
+[2018-01-20 21:00:17] os suspend
+[2018-01-20 21:18:50] controller stopped
+[2018-01-20 21:18:50] os suspend
+[2018-01-20 22:39:16] os wake up
+[2018-01-20 22:39:26] Shadowsocks started
+[2018-01-20 22:39:26] controller started
+[2018-01-20 22:59:05] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:09:20] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:09:29] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:09:37] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:09:46] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:09:56] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:10:06] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:10:16] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:10:27] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:10:38] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:10:50] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:11:03] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:11:17] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:11:31] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:11:47] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:12:03] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:12:20] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:12:39] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:12:59] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:13:21] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:13:45] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:14:10] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:14:37] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:15:06] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:15:38] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:16:13] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:16:50] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:17:31] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:18:15] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:19:04] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:19:56] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:20:54] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:21:56] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:23:05] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:24:19] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:25:41] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:27:10] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:28:48] trus.y23fdl.com:9064 timed out
+[2018-01-20 23:30:35] trus.y23fdl.com:9064 timed out
+[2018-01-21 18:05:16] Shadowsocks started
+[2018-01-21 18:05:20] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-01-21 18:05:43] Detected: User Rule file 'user-rule.txt' was created.
+[2018-01-21 18:06:52] Shadowsocks started
+[2018-01-21 18:06:53] Detected: PAC file 'pac.txt' was changed.
+[2018-01-21 18:06:55] Shadowsocks started
+[2018-01-22 19:36:15] Shadowsocks started
+[2018-01-22 21:01:10] Shadowsocks started
+[2018-01-23 16:03:23] Shadowsocks started
+[2018-01-23 19:39:45] Shadowsocks started
+[2018-01-23 22:25:04] Shadowsocks started
+[2018-01-24 19:52:12] Shadowsocks started
+[2018-01-25 10:02:26] Shadowsocks started
+[2018-01-26 09:42:03] Shadowsocks started
+[2018-01-26 10:21:22] controller stopped
+[2018-01-26 10:21:22] os suspend
+[2018-01-26 19:43:00] os wake up
+[2018-01-26 19:43:10] Shadowsocks started
+[2018-01-26 19:43:11] controller started
+[2018-04-09 10:23:02] Shadowsocks started
+[2018-04-09 10:23:10] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:15] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:15] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-04-09 10:23:16] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:16] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:21] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:21] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:26] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:26] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:31] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:31] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:46] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:46] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:23:59] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:04] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:21] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:21] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:26] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:26] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:27] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:32] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:39] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:39] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:39] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:44] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:44] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:44] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:47] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:52] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:24:58] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:03] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:10] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:10] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:15] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:15] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:23] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:28] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:30] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:35] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:35] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.GFWListUpdater.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-04-09 10:25:40] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:25:45] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:26:01] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:26:01] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:26:04] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:26:05] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:26:06] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:26:06] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:26:06] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.GFWListUpdater.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-04-09 10:26:09] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:26:10] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:26:39] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:26:44] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:27:19] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:27:24] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:27:59] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:28:04] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:28:39] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:28:44] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:28:49] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:28:54] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:29:19] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:29:24] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:29:29] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:29:34] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:36] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:36] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:36] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:36] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:36] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:36] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:36] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:36] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:36] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:38] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:38] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:41] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:42] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:43] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:43] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:47] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:59] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:32:59] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:33:02] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:33:02] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:33:02] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:33:04] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:33:04] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:33:07] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:33:07] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:33:07] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:33:49] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:33:54] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:17] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:22] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:28] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:33] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:39] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:44] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:47] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:47] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:47] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:47] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:52] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:52] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:52] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:52] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:53] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:34:58] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:35:10] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:35:15] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:35:33] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:35:38] trhk.y23fdl.com:6326 timed out
+[2018-04-09 10:35:52] Shadowsocks started
+[2018-04-09 10:35:55] Shadowsocks started
+[2018-04-09 21:06:16] Shadowsocks started
+[2018-04-09 21:06:22] Shadowsocks started
+[2018-04-09 22:16:28] Shadowsocks started
+[2018-04-19 19:39:41] Shadowsocks started
+[2018-04-19 21:44:58] controller stopped
+[2018-04-19 21:44:58] os suspend
+[2018-04-19 21:59:47] os wake up
+[2018-04-19 21:59:57] Shadowsocks started
+[2018-04-19 21:59:57] controller started
+[2018-04-20 18:51:55] Shadowsocks started
+[2018-04-22 11:09:53] Shadowsocks started
+[2018-04-22 12:43:26] controller stopped
+[2018-04-22 12:43:26] os suspend
+[2018-04-22 14:40:22] os wake up
+[2018-04-22 14:40:32] Shadowsocks started
+[2018-04-22 14:40:32] controller started
+[2018-04-22 20:21:18] Shadowsocks started
+[2018-04-23 10:53:18] Shadowsocks started
+[2018-04-23 16:13:52] Shadowsocks started
+[2018-05-02 10:14:06] Shadowsocks started
+[2018-05-06 15:35:27] Shadowsocks started
+[2018-05-07 15:50:20] Shadowsocks started
+[2018-05-07 17:51:22] controller stopped
+[2018-05-07 17:51:22] os suspend
+[2018-05-07 17:54:46] controller stopped
+[2018-05-07 17:54:46] os suspend
+[2018-05-07 19:59:11] os wake up
+[2018-05-07 19:59:21] Shadowsocks started
+[2018-05-07 19:59:21] controller started
+[2018-05-08 10:55:57] Shadowsocks started
+[2018-05-08 11:52:18] controller stopped
+[2018-05-08 11:52:18] os suspend
+[2018-05-08 15:48:25] os wake up
+[2018-05-08 15:48:35] Shadowsocks started
+[2018-05-08 15:48:35] controller started
+[2018-05-08 17:15:11] controller stopped
+[2018-05-08 17:15:11] os suspend
+[2018-05-08 19:08:36] os wake up
+[2018-05-08 19:08:41] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:41] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:41] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:41] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:42] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:42] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:46] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:46] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:46] Shadowsocks started
+[2018-05-08 19:08:47] controller started
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:08:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 19:58:23] controller stopped
+[2018-05-08 19:58:23] os suspend
+[2018-05-08 21:50:07] os wake up
+[2018-05-08 21:50:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:15] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:15] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:15] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:15] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:17] Shadowsocks started
+[2018-05-08 21:50:18] controller started
+[2018-05-08 21:50:19] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:19] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:22] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:22] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:28] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:28] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:30] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:30] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:33] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:33] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:38] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:38] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:39] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:39] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:45] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:45] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:53] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:50:53] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:51:00] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:51:00] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:51:08] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:51:08] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:51:09] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:51:09] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:51:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-08 21:51:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-09 21:20:20] Shadowsocks started
+[2018-05-09 21:20:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-09 21:20:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-09 21:20:23] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-05-09 21:21:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-09 21:21:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-09 21:21:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-09 21:21:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-09 21:21:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-09 21:21:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-09 21:21:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-09 21:21:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-10 16:01:06] Shadowsocks started
+[2018-05-10 19:48:08] Shadowsocks started
+[2018-05-10 20:18:28] Shadowsocks started
+[2018-05-10 20:23:32] Shadowsocks started
+[2018-05-10 20:30:46] Shadowsocks started
+[2018-05-11 16:33:06] Shadowsocks started
+[2018-05-11 16:33:09] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:09] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:09] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-05-11 16:33:10] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:10] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:10] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:10] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:14] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:14] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:17] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:17] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:21] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:21] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:26] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:26] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:31] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 16:33:31] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-11 18:20:38] controller stopped
+[2018-05-11 18:20:38] os suspend
+[2018-05-11 18:25:41] os wake up
+[2018-05-11 18:25:51] Shadowsocks started
+[2018-05-11 18:25:51] controller started
+[2018-05-11 21:41:07] controller stopped
+[2018-05-11 21:41:07] os suspend
+[2018-05-11 21:50:40] os wake up
+[2018-05-11 21:50:50] Shadowsocks started
+[2018-05-11 21:50:50] controller started
+[2018-05-11 22:16:21] controller stopped
+[2018-05-11 22:16:21] os suspend
+[2018-05-11 22:21:36] os wake up
+[2018-05-11 22:21:46] Shadowsocks started
+[2018-05-11 22:21:46] controller started
+[2018-05-11 23:02:50] controller stopped
+[2018-05-11 23:02:50] os suspend
+[2018-05-12 16:58:39] os wake up
+[2018-05-12 16:58:43] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-12 16:58:43] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-12 16:58:47] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-12 16:58:47] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-12 16:58:47] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-12 16:58:47] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-12 16:58:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-12 16:58:48] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-12 16:58:49] Shadowsocks started
+[2018-05-12 16:58:49] controller started
+[2018-05-13 08:33:22] Shadowsocks started
+[2018-05-13 08:33:24] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:33:24] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:33:24] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2018-05-13 08:35:34] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:34] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:37] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:37] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:41] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:41] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:45] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:45] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:49] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:49] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:54] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:54] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:59] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:35:59] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:36:05] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:36:05] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:36:12] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:36:12] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:36:19] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 08:36:19] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 09:17:21] Shadowsocks started
+[2018-05-13 12:20:15] controller stopped
+[2018-05-13 12:20:15] os suspend
+[2018-05-13 12:44:26] controller stopped
+[2018-05-13 12:44:26] os suspend
+[2018-05-13 14:37:04] os wake up
+[2018-05-13 14:37:14] Shadowsocks started
+[2018-05-13 14:37:14] controller started
+[2018-05-13 17:56:35] controller stopped
+[2018-05-13 17:56:35] os suspend
+[2018-05-13 18:48:36] os wake up
+[2018-05-13 18:48:46] Shadowsocks started
+[2018-05-13 18:48:47] controller started
+[2018-05-13 18:48:51] trhk02.y23fdl.com:7331 timed out
+[2018-05-13 18:48:59] trhk02.y23fdl.com:7331 timed out
+[2018-05-13 18:49:04] trhk02.y23fdl.com:7331 timed out
+[2018-05-13 18:49:06] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-13 20:26:55] controller stopped
+[2018-05-13 20:26:55] os suspend
+[2018-05-13 20:48:11] os wake up
+[2018-05-13 20:48:21] Shadowsocks started
+[2018-05-13 20:48:21] controller started
+[2018-05-13 23:02:24] controller stopped
+[2018-05-13 23:02:24] os suspend
+[2018-05-13 23:07:58] controller stopped
+[2018-05-13 23:07:58] os suspend
+[2018-05-14 08:38:23] os wake up
+[2018-05-14 08:38:34] Shadowsocks started
+[2018-05-14 08:38:34] controller started
+[2018-05-14 12:01:37] controller stopped
+[2018-05-14 12:01:37] os suspend
+[2018-05-14 14:09:56] os wake up
+[2018-05-14 14:10:06] Shadowsocks started
+[2018-05-14 14:10:06] controller started
+[2018-05-14 21:46:54] controller stopped
+[2018-05-14 21:46:54] os suspend
+[2018-05-14 21:49:58] controller stopped
+[2018-05-14 21:49:58] os suspend
+[2018-05-14 21:56:50] os wake up
+[2018-05-14 21:57:00] Shadowsocks started
+[2018-05-14 21:57:00] controller started
+[2018-05-14 22:55:55] controller stopped
+[2018-05-14 22:55:55] os suspend
+[2018-05-15 08:22:23] os wake up
+[2018-05-15 08:22:27] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-15 08:22:27] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-15 08:22:33] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-15 08:22:33] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-15 08:22:33] Shadowsocks started
+[2018-05-15 08:22:33] controller started
+[2018-05-17 14:00:59] Shadowsocks started
+[2018-05-17 20:43:57] Shadowsocks started
+[2018-05-17 22:27:44] Shadowsocks started
+[2018-05-17 23:15:25] controller stopped
+[2018-05-17 23:15:25] os suspend
+[2018-05-18 10:04:18] os wake up
+[2018-05-18 10:04:28] Shadowsocks started
+[2018-05-18 10:04:28] controller started
+[2018-05-18 16:56:32] Shadowsocks started
+[2018-05-18 20:46:57] Shadowsocks started
+[2018-05-18 21:09:58] controller stopped
+[2018-05-18 21:09:58] os suspend
+[2018-05-18 21:16:51] os wake up
+[2018-05-18 21:17:01] Shadowsocks started
+[2018-05-18 21:17:01] controller started
+[2018-05-18 21:39:42] Shadowsocks started
+[2018-05-19 10:53:01] Shadowsocks started
+[2018-05-19 12:39:04] controller stopped
+[2018-05-19 12:39:04] os suspend
+[2018-05-19 13:57:44] os wake up
+[2018-05-19 13:57:54] Shadowsocks started
+[2018-05-19 13:57:54] controller started
+[2018-05-19 14:11:05] Shadowsocks started
+[2018-05-19 14:42:08] controller stopped
+[2018-05-19 14:42:08] os suspend
+[2018-05-19 14:55:00] controller stopped
+[2018-05-19 14:55:00] os suspend
+[2018-05-19 15:00:04] os wake up
+[2018-05-19 15:00:14] Shadowsocks started
+[2018-05-19 15:00:14] controller started
+[2018-05-19 21:52:25] Shadowsocks started
+[2018-05-19 22:40:29] controller stopped
+[2018-05-19 22:40:29] os suspend
+[2018-05-19 23:01:21] os wake up
+[2018-05-19 23:01:31] Shadowsocks started
+[2018-05-19 23:01:31] controller started
+[2018-05-20 09:13:23] Shadowsocks started
+[2018-05-20 09:55:27] Shadowsocks started
+[2018-05-20 12:34:31] controller stopped
+[2018-05-20 12:34:31] os suspend
+[2018-05-20 14:43:40] controller stopped
+[2018-05-20 14:43:40] os suspend
+[2018-05-20 15:00:54] os wake up
+[2018-05-20 15:01:04] Shadowsocks started
+[2018-05-20 15:01:04] controller started
+[2018-05-20 19:49:20] controller stopped
+[2018-05-20 19:49:20] os suspend
+[2018-05-20 21:17:40] os wake up
+[2018-05-20 21:17:44] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-20 21:17:47] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-20 21:17:47] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-20 21:17:50] Shadowsocks started
+[2018-05-20 21:17:51] controller started
+[2018-05-20 21:17:51] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-20 21:17:51] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-21 08:14:34] Shadowsocks started
+[2018-05-21 11:50:36] controller stopped
+[2018-05-21 11:50:36] os suspend
+[2018-05-21 14:41:09] os wake up
+[2018-05-21 14:41:20] Shadowsocks started
+[2018-05-21 14:41:20] controller started
+[2018-05-21 18:16:38] controller stopped
+[2018-05-21 18:16:38] os suspend
+[2018-05-21 18:27:39] os wake up
+[2018-05-21 18:27:50] Shadowsocks started
+[2018-05-21 18:27:50] controller started
+[2018-05-21 18:50:24] controller stopped
+[2018-05-21 18:50:24] os suspend
+[2018-05-21 20:22:10] os wake up
+[2018-05-21 20:22:20] Shadowsocks started
+[2018-05-21 20:22:20] controller started
+[2018-05-21 21:39:02] controller stopped
+[2018-05-21 21:39:02] os suspend
+[2018-05-21 22:00:06] controller stopped
+[2018-05-21 22:00:06] os suspend
+[2018-05-21 22:26:00] controller stopped
+[2018-05-21 22:26:00] os suspend
+[2018-05-21 22:59:58] controller stopped
+[2018-05-21 22:59:58] os suspend
+[2018-05-22 08:03:34] Shadowsocks started
+[2018-05-22 08:41:36] controller stopped
+[2018-05-22 08:41:36] os suspend
+[2018-05-22 09:06:39] os wake up
+[2018-05-22 09:06:49] Shadowsocks started
+[2018-05-22 09:06:49] controller started
+[2018-05-22 10:18:21] controller stopped
+[2018-05-22 10:18:21] os suspend
+[2018-05-22 11:10:09] os wake up
+[2018-05-22 11:10:13] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 11:10:13] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 11:10:13] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 11:10:13] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 11:10:13] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 11:10:13] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 11:10:16] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 11:10:16] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 11:10:16] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 11:10:16] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 11:10:20] Shadowsocks started
+[2018-05-22 11:10:20] controller started
+[2018-05-22 11:49:40] controller stopped
+[2018-05-22 11:49:40] os suspend
+[2018-05-22 14:36:00] os wake up
+[2018-05-22 14:36:04] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 14:36:04] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 14:36:04] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 14:36:04] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 14:36:06] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 14:36:06] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 14:36:10] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 14:36:10] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-22 14:36:11] Shadowsocks started
+[2018-05-22 14:36:11] controller started
+[2018-05-22 21:52:23] controller stopped
+[2018-05-22 21:52:23] os suspend
+[2018-05-22 22:06:22] os wake up
+[2018-05-22 22:06:32] Shadowsocks started
+[2018-05-22 22:06:33] controller started
+[2018-05-22 23:14:30] controller stopped
+[2018-05-22 23:14:30] os suspend
+[2018-05-23 08:20:27] Shadowsocks started
+[2018-05-23 17:36:33] controller stopped
+[2018-05-23 17:36:33] os suspend
+[2018-05-23 18:34:06] os wake up
+[2018-05-23 18:34:17] Shadowsocks started
+[2018-05-23 18:34:17] controller started
+[2018-05-24 14:10:31] Shadowsocks started
+[2018-05-24 18:24:32] controller stopped
+[2018-05-24 18:24:32] os suspend
+[2018-05-24 18:49:40] controller stopped
+[2018-05-24 18:49:40] os suspend
+[2018-05-24 19:29:13] controller stopped
+[2018-05-24 19:29:13] os suspend
+[2018-05-24 19:29:20] os wake up
+[2018-05-24 19:29:30] Shadowsocks started
+[2018-05-24 19:29:30] controller started
+[2018-05-24 20:59:16] controller stopped
+[2018-05-24 20:59:16] os suspend
+[2018-05-24 21:56:19] controller stopped
+[2018-05-24 21:56:19] os suspend
+[2018-05-24 22:01:32] controller stopped
+[2018-05-24 22:01:32] os suspend
+[2018-05-24 22:04:17] controller stopped
+[2018-05-24 22:04:17] os suspend
+[2018-05-24 22:04:24] os wake up
+[2018-05-24 22:04:34] Shadowsocks started
+[2018-05-24 22:04:34] controller started
+[2018-05-24 23:00:43] controller stopped
+[2018-05-24 23:00:43] os suspend
+[2018-05-24 23:13:03] controller stopped
+[2018-05-24 23:13:03] os suspend
+[2018-05-25 08:32:21] os wake up
+[2018-05-25 08:32:31] Shadowsocks started
+[2018-05-25 08:32:31] controller started
+[2018-05-25 11:49:11] controller stopped
+[2018-05-25 11:49:11] os suspend
+[2018-05-25 11:52:10] controller stopped
+[2018-05-25 11:52:10] os suspend
+[2018-05-25 14:03:56] os wake up
+[2018-05-25 14:03:59] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:03:59] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:03:59] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:03:59] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:04:02] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:04:02] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:04:03] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:04:03] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:04:06] Shadowsocks started
+[2018-05-25 14:04:06] controller started
+[2018-05-25 14:04:07] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:04:07] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:04:10] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:04:10] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:04:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 14:04:11] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-05-25 15:08:14] controller stopped
+[2018-05-25 15:08:14] os suspend
+[2018-05-25 15:24:51] os wake up
+[2018-05-25 15:25:01] Shadowsocks started
+[2018-05-25 15:25:02] controller started
+[2018-05-25 18:10:15] controller stopped
+[2018-05-25 18:10:15] os suspend
+[2018-05-25 18:21:59] controller stopped
+[2018-05-25 18:21:59] os suspend
+[2018-05-25 18:32:15] os wake up
+[2018-05-25 18:32:25] Shadowsocks started
+[2018-05-25 18:32:26] controller started
+[2018-05-25 19:32:35] controller stopped
+[2018-05-25 19:32:35] os suspend
+[2018-05-25 20:16:49] os wake up
+[2018-05-25 20:16:59] Shadowsocks started
+[2018-05-25 20:16:59] controller started
+[2018-05-26 17:24:40] Shadowsocks started
+[2018-05-26 17:55:01] controller stopped
+[2018-05-26 17:55:01] os suspend
+[2018-05-26 17:55:36] os wake up
+[2018-05-26 17:55:45] controller stopped
+[2018-05-26 17:55:45] os suspend
+[2018-05-26 17:55:47] Shadowsocks started
+[2018-05-26 17:55:47] controller started
+[2018-05-26 18:19:40] os wake up
+[2018-05-26 18:19:50] Shadowsocks started
+[2018-05-26 18:19:50] controller started
+[2018-05-27 08:11:49] Shadowsocks started
+[2018-05-27 12:47:51] controller stopped
+[2018-05-27 12:47:51] os suspend
+[2018-05-27 14:06:55] os wake up
+[2018-05-27 14:07:05] Shadowsocks started
+[2018-05-27 14:07:05] controller started
+[2018-05-27 19:47:39] Shadowsocks started
+[2018-05-28 08:20:01] Shadowsocks started
+[2018-05-28 09:40:07] Shadowsocks started
+[2018-05-28 11:59:43] controller stopped
+[2018-05-28 11:59:43] os suspend
+[2018-05-28 12:00:15] os wake up
+[2018-05-28 12:00:20] controller stopped
+[2018-05-28 12:00:20] os suspend
+[2018-05-28 12:00:25] Shadowsocks started
+[2018-05-28 12:00:25] controller started
+[2018-05-28 14:35:10] os wake up
+[2018-05-28 14:35:20] Shadowsocks started
+[2018-05-28 14:35:20] controller started
+[2018-05-28 19:48:22] controller stopped
+[2018-05-28 19:48:22] os suspend
+[2018-05-28 19:55:59] controller stopped
+[2018-05-28 19:55:59] os suspend
+[2018-05-28 19:56:48] os wake up
+[2018-05-28 19:56:58] Shadowsocks started
+[2018-05-28 19:56:59] controller started
+[2018-05-28 21:06:14] controller stopped
+[2018-05-28 21:06:14] os suspend
+[2018-05-28 21:06:24] os wake up
+[2018-05-28 21:06:34] Shadowsocks started
+[2018-05-28 21:06:34] controller started
+[2018-05-29 08:11:06] Shadowsocks started
+[2018-05-29 11:59:40] controller stopped
+[2018-05-29 11:59:40] os suspend
+[2018-05-29 12:05:31] controller stopped
+[2018-05-29 12:05:31] os suspend
+[2018-05-29 13:31:07] controller stopped
+[2018-05-29 13:31:07] os suspend
+[2018-05-29 14:08:16] os wake up
+[2018-05-29 14:08:26] Shadowsocks started
+[2018-05-29 14:08:27] controller started
+[2018-05-29 14:13:06] Shadowsocks started
+[2018-05-31 17:18:29] Shadowsocks started
+[2018-05-31 17:20:03] controller stopped
+[2018-05-31 17:20:03] os suspend
+[2018-05-31 17:54:31] os wake up
+[2018-05-31 17:54:41] Shadowsocks started
+[2018-05-31 17:54:41] controller started
+[2018-05-31 18:31:02] controller stopped
+[2018-05-31 18:31:02] os suspend
+[2018-05-31 18:39:50] controller stopped
+[2018-05-31 18:39:50] os suspend
+[2018-05-31 18:52:43] os wake up
+[2018-05-31 18:52:53] Shadowsocks started
+[2018-05-31 18:52:53] controller started
+[2018-05-31 21:06:10] controller stopped
+[2018-05-31 21:06:10] os suspend
+[2018-05-31 21:14:27] controller stopped
+[2018-05-31 21:14:27] os suspend
+[2018-05-31 21:37:52] controller stopped
+[2018-05-31 21:37:52] os suspend
+[2018-05-31 22:10:53] os wake up
+[2018-05-31 22:11:03] Shadowsocks started
+[2018-05-31 22:11:03] controller started
+[2018-05-31 22:58:19] controller stopped
+[2018-05-31 22:58:19] os suspend
+[2018-06-01 08:48:27] os wake up
+[2018-06-01 08:48:30] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:30] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:32] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:32] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:34] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:34] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:37] Shadowsocks started
+[2018-06-01 08:48:37] controller started
+[2018-06-01 08:48:40] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:40] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:41] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:41] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:47] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:47] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:55] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:55] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:57] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:48:57] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:03] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:03] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:13] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:13] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:23] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:28] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:28] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:35] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:35] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:47] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:49:47] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:50:01] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:50:01] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:50:16] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 08:50:16] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 11:53:56] controller stopped
+[2018-06-01 11:53:56] os suspend
+[2018-06-01 12:17:02] controller stopped
+[2018-06-01 12:17:02] os suspend
+[2018-06-01 12:48:21] controller stopped
+[2018-06-01 12:48:21] os suspend
+[2018-06-01 14:03:58] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 14:03:58] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 14:03:58] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 14:03:58] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-01 14:14:21] controller stopped
+[2018-06-01 14:14:21] os suspend
+[2018-06-01 14:34:49] controller stopped
+[2018-06-01 14:34:49] os suspend
+[2018-06-01 14:48:49] controller stopped
+[2018-06-01 14:48:49] os suspend
+[2018-06-01 14:55:28] os wake up
+[2018-06-01 14:55:38] Shadowsocks started
+[2018-06-01 14:55:38] controller started
+[2018-06-01 18:26:54] controller stopped
+[2018-06-01 18:26:54] os suspend
+[2018-06-01 22:52:07] controller stopped
+[2018-06-01 22:52:07] os suspend
+[2018-06-02 07:39:18] os wake up
+[2018-06-02 07:39:28] Shadowsocks started
+[2018-06-02 07:39:29] controller started
+[2018-06-02 08:09:25] controller stopped
+[2018-06-02 08:09:25] os suspend
+[2018-06-02 08:11:22] os wake up
+[2018-06-02 08:11:32] Shadowsocks started
+[2018-06-02 08:11:32] controller started
+[2018-06-02 15:45:49] controller stopped
+[2018-06-02 15:45:49] os suspend
+[2018-06-02 15:50:16] controller stopped
+[2018-06-02 15:50:16] os suspend
+[2018-06-02 15:59:27] os wake up
+[2018-06-02 15:59:37] Shadowsocks started
+[2018-06-02 15:59:38] controller started
+[2018-06-02 17:58:54] controller stopped
+[2018-06-02 17:58:54] os suspend
+[2018-06-02 18:17:24] controller stopped
+[2018-06-02 18:17:24] os suspend
+[2018-06-02 18:27:17] controller stopped
+[2018-06-02 18:27:17] os suspend
+[2018-06-02 18:31:21] controller stopped
+[2018-06-02 18:31:21] os suspend
+[2018-06-02 18:31:28] os wake up
+[2018-06-02 18:31:39] Shadowsocks started
+[2018-06-02 18:31:39] controller started
+[2018-06-02 19:11:24] controller stopped
+[2018-06-02 19:11:24] os suspend
+[2018-06-02 21:53:28] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-02 21:53:28] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-02 21:53:28] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-02 21:53:28] System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 Shadowsocks.Util.Sockets.WrappedSocket.EndConnect(IAsyncResult asyncResult)
+   在 Shadowsocks.Proxy.DirectConnect.EndConnectDest(IAsyncResult asyncResult)
+   在 Shadowsocks.Controller.TCPHandler.ConnectCallback(IAsyncResult ar)
+[2018-06-02 23:02:17] controller stopped
+[2018-06-02 23:02:17] os suspend
+[2018-06-03 08:45:32] os wake up
+[2018-06-03 08:45:42] Shadowsocks started
+[2018-06-03 08:45:42] controller started
+[2018-06-03 11:21:05] controller stopped
+[2018-06-03 11:21:05] os suspend
+[2018-06-03 14:50:32] os wake up
+[2018-06-03 14:50:42] Shadowsocks started
+[2018-06-03 14:50:43] controller started
+[2018-06-03 17:31:37] controller stopped
+[2018-06-03 17:31:37] os suspend
+[2018-06-03 18:04:48] os wake up
+[2018-06-03 18:04:59] Shadowsocks started
+[2018-06-03 18:04:59] controller started
+[2018-06-03 18:50:23] controller stopped
+[2018-06-03 18:50:23] os suspend
+[2018-06-03 19:07:32] os wake up
+[2018-06-03 19:07:43] Shadowsocks started
+[2018-06-03 19:07:43] controller started
+[2018-06-03 19:25:37] controller stopped
+[2018-06-03 19:25:37] os suspend
+[2018-06-03 19:29:16] os wake up
+[2018-06-03 19:29:26] Shadowsocks started
+[2018-06-03 19:29:26] controller started
+[2018-06-03 20:08:27] controller stopped
+[2018-06-03 20:08:27] os suspend
+[2018-06-03 20:47:46] os wake up
+[2018-06-03 20:47:56] Shadowsocks started
+[2018-06-03 20:47:56] controller started
+[2018-06-04 19:15:33] Shadowsocks started

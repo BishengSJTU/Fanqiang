@@ -1,0 +1,2342 @@
+[2017-07-05 19:06:14] Shadowsocks started
+[2017-07-05 19:06:24] Shadowsocks started
+[2017-07-05 19:06:26] Shadowsocks started
+[2017-07-05 19:06:29] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:29] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:29] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2017-07-05 19:06:33] Shadowsocks started
+[2017-07-05 19:06:38] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:38] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:38] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:38] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:42] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:42] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:42] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:42] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:44] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:44] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:45] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:45] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:45] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:45] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:45] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:45] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:51] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:51] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:56] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:06:56] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:07] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:07] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:09] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:09] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:12] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:12] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:12] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:12] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:13] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:13] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:16] Shadowsocks started
+[2017-07-05 19:07:19] Shadowsocks started
+[2017-07-05 19:07:21] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:21] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:24] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:24] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:24] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:24] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:26] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:36] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:36] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:44] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:07:44] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:07] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:07] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:12] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:12] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:12] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:12] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:16] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:16] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:16] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:08:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:08] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:08] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:35] Shadowsocks started
+[2017-07-05 19:09:38] Shadowsocks started
+[2017-07-05 19:09:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:49] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:49] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:49] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:49] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:54] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:54] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:55] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:55] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:55] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:09:55] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:01] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:01] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:01] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:01] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:01] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:01] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:01] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:01] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:02] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:02] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:02] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:02] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:02] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:02] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:04] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:04] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:05] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:05] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:05] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:05] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:06] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:06] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:06] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:06] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:07] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:07] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:24] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:24] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:29] Shadowsocks started
+[2017-07-05 19:10:40] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:40] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:40] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:40] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:47] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:47] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:47] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:10:47] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:11:35] System.Exception: 端口已被占用 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 Shadowsocks.Controller.Listener.Start(Configuration config)
+   在 Shadowsocks.Controller.ShadowsocksController.Reload()
+   --- 内部异常堆栈跟踪的结尾 ---
+[2017-07-05 19:11:39] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1080
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2017-07-05 19:12:24] System.Exception: 端口已被占用 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 Shadowsocks.Controller.Listener.Start(Configuration config)
+   在 Shadowsocks.Controller.ShadowsocksController.Reload()
+   --- 内部异常堆栈跟踪的结尾 ---
+[2017-07-05 19:12:31] System.Exception: 端口已被占用 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 Shadowsocks.Controller.Listener.Start(Configuration config)
+   在 Shadowsocks.Controller.ShadowsocksController.Reload()
+   --- 内部异常堆栈跟踪的结尾 ---
+[2017-07-05 19:12:40] System.Exception: 端口已被占用 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 Shadowsocks.Controller.Listener.Start(Configuration config)
+   在 Shadowsocks.Controller.ShadowsocksController.Reload()
+   --- 内部异常堆栈跟踪的结尾 ---
+[2017-07-05 19:12:44] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1080
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2017-07-05 19:13:05] System.Exception: 端口已被占用 ---> System.Net.Sockets.SocketException: 以一种访问权限不允许的方式做了一个访问套接字的尝试。
+   在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 Shadowsocks.Controller.Listener.Start(Configuration config)
+   在 Shadowsocks.Controller.ShadowsocksController.Reload()
+   --- 内部异常堆栈跟踪的结尾 ---
+[2017-07-05 19:13:49] Shadowsocks started
+[2017-07-05 19:13:52] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:13:52] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:13:52] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2017-07-05 19:14:04] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:04] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:04] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:04] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:04] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:04] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:04] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:04] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:09] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:09] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:09] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:09] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:10] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:10] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:10] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:10] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:14] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:14] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:14] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+[2017-07-05 19:14:14] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:14] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:14] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:14] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:14] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:15] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:15] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:21] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:21] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:27] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:27] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:29] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:29] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:32] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:32] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:36] Shadowsocks started
+[2017-07-05 19:14:40] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:40] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:41] Shadowsocks started
+[2017-07-05 19:14:48] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:48] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:48] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:48] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:51] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:51] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:51] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:51] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:53] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:53] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:53] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:55] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:55] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:55] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:55] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:56] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:56] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:56] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:56] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:56] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:56] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:57] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:57] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:14:57] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:02] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:02] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:02] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:15] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:15] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:25] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:25] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:26] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:26] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:15:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:27] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:27] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:27] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:27] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:37] Shadowsocks started
+[2017-07-05 19:16:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:43] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:16:46] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:17:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:17:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:17:00] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:18:26] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
+[2017-07-05 19:18:26] System.TypeInitializationException: “Shadowsocks.Encryption.EncryptorFactory”的类型初始值设定项引发异常。 ---> System.TypeInitializationException: “Shadowsocks.Encryption.Sodium”的类型初始值设定项引发异常。 ---> System.EntryPointNotFoundException: 无法在 DLL“libsscrypto.dll”中找到名为“sodium_init”的入口点。
+   在 Shadowsocks.Encryption.Sodium.sodium_init()
+   在 Shadowsocks.Encryption.Sodium..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.Sodium.get_AES256GCMAvailable()
+   在 Shadowsocks.Encryption.EncryptorFactory..cctor()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Shadowsocks.Encryption.EncryptorFactory.GetEncryptor(String method, String password)
+   在 Shadowsocks.Controller.TCPHandler.CreateRemote()
+   在 Shadowsocks.Controller.TCPHandler.StartConnect()
